@@ -41,6 +41,7 @@ function App() {
       );
     };
 
+    // window mouse up 
     const onMouseUp = () => {
       window.removeEventListener("mousemove", onMouseMove);
       window.removeEventListener("mouseup", onMouseUp);
